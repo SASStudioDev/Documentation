@@ -3,6 +3,7 @@ var name age weight;
 run;
 
 proc print data=sashelp.classfit;
-var name age predict lower lowermean upper uppermean;
+var name age predict lowermean uppermean;
+>>>>>>> Remote
 run;
 quit;
